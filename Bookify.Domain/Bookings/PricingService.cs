@@ -54,7 +54,6 @@ namespace Bookify.Domain.Bookings
 
             return new PricingDetails(priceForPeriod, apartment.CleaningFee, amenitiesUpCharge, totalPrice);
 
-
         }
 
     }

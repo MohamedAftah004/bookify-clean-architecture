@@ -5,8 +5,14 @@ namespace Bookify.Domain.Apartments;
 public sealed class Apartment : Entity
 {
 
-    public Apartment(Guid Id, Name name, Description description, Address address,
-        Money price, Money cleaningFee, DateTime? lastBookedOnUtc, List<Amenity> amenities) : base(Id)
+    public Apartment(Guid Id,
+        Name name,
+        Description description,
+        Address address,
+        Money price,
+        Money cleaningFee, 
+        DateTime? lastBookedOnUtc, 
+        List<Amenity> amenities) : base(Id)
     {
         Name = name;
         Description = description;
